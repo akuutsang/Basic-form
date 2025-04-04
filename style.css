@@ -32,3 +32,8 @@ textarea {
   width: 60%;
   box-sizing: border-box;
 }
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
