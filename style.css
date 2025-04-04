@@ -19,3 +19,9 @@ fieldset {
   gap: 10px;
   margin-bottom: 20px;
 }
+
+label {
+  width: 120px;
+  text-align: right;
+  line-height: 1.5;
+}
