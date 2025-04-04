@@ -37,3 +37,8 @@ textarea {
   vertical-align: top;
   height: 5em;
 }
+
+.btn {
+  width: 100%;
+  padding-left: 120px;
+}
