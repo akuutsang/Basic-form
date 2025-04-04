@@ -42,3 +42,14 @@ textarea {
   width: 100%;
   padding-left: 120px;
 }
+
+button {
+  width: 30%;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: 1px solid;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 4px -4px 8px rgba(0, 0, 0, 1);
+}
