@@ -12,3 +12,10 @@ fieldset {
   width: 50rem;
   padding: 20px;
 }
+
+.form-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+}
