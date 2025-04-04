@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <form action="https://httpbin.org/post" method="post">
+        <fieldset>
+          <legend>Contact</legend>
+          <div class="form-group">
+            <label for="first-name">
+              First Name:
+            </label>
+            <input type="text" name="first-name" id="first-name"></input>
+          </div>
+          <div class="form-group">
+            <label for="last-name">
+              Last Name:
+            </label>
+            <input type="text" name="last-name" id="last-name">
+    
+            </input>
+          </div>
+          <div class="form-group">
+            <label for="email">
+              Email:
+            </label>
+            <input type="email" name="first-name" id="email"></input>
+          </div>
+          <div class="form-group" >
+            <label for="textarea">Message:</label>
+            <textarea id="textarea"></textarea>
+          </div>
+      
+      <div class="btn"> <button type="submit">Send your message</button ></div>
+    
+      </form>
+</body>
+</html>
