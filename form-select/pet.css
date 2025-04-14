@@ -1,0 +1,7 @@
+select,
+::picker(select) {
+  appearance: base-select;
+}
+* {
+  box-sizing: border-box;
+}
