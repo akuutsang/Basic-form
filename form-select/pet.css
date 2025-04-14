@@ -35,3 +35,10 @@ label {
 select {
   flex: 1;
 }
+
+select {
+  border: 2px solid #ddd;
+  background: #eee;
+  padding: 10px;
+  transition: 0.4s;
+}
