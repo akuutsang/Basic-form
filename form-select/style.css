@@ -1,0 +1,6 @@
+select {
+  appearance: base-select; /* Use the browser's default look */
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
