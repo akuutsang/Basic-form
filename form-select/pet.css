@@ -53,3 +53,16 @@ select::picker-icon {
 select:open::picker-icon {
   rotate: 180deg;
 }
+::picker(select) {
+  border: none;
+}
+option {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+
+  border: 2px solid #ddd;
+  background: #eee;
+  padding: 10px;
+  transition: 0.4s;
+}
