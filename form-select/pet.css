@@ -31,3 +31,7 @@ label {
   width: fit-content;
   align-self: center;
 }
+
+select {
+  flex: 1;
+}
