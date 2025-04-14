@@ -98,3 +98,10 @@ option::checkmark {
   margin-left: auto;
   content: "☑️";
 }
+::picker(select) {
+  opacity: 0;
+  transition: all 0.4s allow-discrete;
+}
+::picker(select):popover-open {
+  opacity: 1;
+}
