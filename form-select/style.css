@@ -26,3 +26,25 @@ option:checked {
   background-color: rgb(189, 223, 16);
   font-weight: bold;
 }
+
+/* The checkmark next to selected option (experimental) */
+option::checkmark {
+  content: "✔️ ";
+  color: rgb(231, 18, 149);
+  font-weight: bold;
+}
+
+/* worthy of mention, Browsers use their own built-in styles to display dropdowns, and they don’t let you change much about how options look — especially things like:
+
+Background color
+
+Font weight
+
+Font family
+
+Adding icons or checkmarks
+
+It’s mainly a security, usability, and consistency thing. The dropdown should look the same on different systems (Windows, macOS, Android, etc.). 
+therefor, option::checkmark and option:checked  will most likely not work
+
+ */
