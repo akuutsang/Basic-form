@@ -12,11 +12,17 @@ select {
 /* When the dropdown is open */
 select:open {
   border: 2px solid rgb(205, 12, 121);
-  background-color: #eef;
+  /* background-color: #eef; */
 }
 
 /* The dropdown arrow icon (may not work in all browsers) */
 select::picker-icon {
-  color: rgb(68, 231, 32);
+  color: rgb(47, 255, 0);
   font-size: 20px;
+}
+
+/* The currently selected option */
+option:checked {
+  background-color: rgb(189, 223, 16);
+  font-weight: bold;
 }
