@@ -79,3 +79,7 @@ option:not(option:last-of-type) {
 option:nth-of-type(odd) {
   background: #fff;
 }
+option:hover,
+option:focus {
+  background: plum;
+}
