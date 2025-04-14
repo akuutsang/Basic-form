@@ -83,3 +83,10 @@ option:hover,
 option:focus {
   background: plum;
 }
+option .icon {
+  font-size: 1.6rem;
+  text-box: trim-both cap alphabetic;
+}
+selectedcontent .icon {
+  display: none;
+}
