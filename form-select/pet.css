@@ -93,3 +93,8 @@ selectedcontent .icon {
 option:checked {
   font-weight: bold;
 }
+option::checkmark {
+  order: 1;
+  margin-left: auto;
+  content: "☑️";
+}
