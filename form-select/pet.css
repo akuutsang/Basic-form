@@ -90,3 +90,6 @@ option .icon {
 selectedcontent .icon {
   display: none;
 }
+option:checked {
+  font-weight: bold;
+}
