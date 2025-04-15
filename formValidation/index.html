@@ -16,7 +16,7 @@
     <!-- </form> -->
 
     <!-- Validating against a regular expression -->
-    <form>
+    <!-- <form>
       <label for="choose">Would you prefer a banana or a cherry?</label>
       <input
         id="choose"
@@ -26,6 +26,33 @@
         pattern="^\+234-\d{3}-\d{4}-\d{3}$"
         placeholder="+234-000-0000-000" />
       <button type="submit">Submit</button>
+    </form> -->
+    <!-- illustrating validation with min or max value -->
+    <form action="www.inputs" method="post">
+      <div>
+        <label for="choose">Would you prefer banana or cherry?</label>
+        <input
+          type="text"
+          id="choose"
+          name="i-like"
+          required
+          minlength="6"
+          maxlength="6" />
+
+        <div>
+          <label for="number">How many would you like?</label>
+          <input
+            type="number"
+            id="number"
+            name="amount"
+            value="1"
+            min="1"
+            max="10" />
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </div>
     </form>
   </body>
 </html>
