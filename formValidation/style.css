@@ -13,3 +13,5 @@ input:valid:required {
 input:valid {
   border: 2px solid black;
 }
+
+/* if user does not input the feild, the color black shows indicating valid field */
