@@ -8,10 +8,23 @@
   </head>
   <body>
     <!-- illustrating form validation -->
+    <!-- <form> -->
+    <!-- <label for="choose">Would you prefer a banana or cherry?</label> -->
+    <!-- notice the behavior of the web page when "required" is added -->
+    <!-- <input id="choose" name="i-like" required 
+      <button type="submit">Submit</button>  -->
+    <!-- </form> -->
+
+    <!-- Validating against a regular expression -->
     <form>
-      <label for="choose">Would you prefer a banana or cherry?</label>
-      <!-- notice the behavior of the web page when "required" is added -->
-      <input id="choose" name="i-like" required />
+      <label for="choose">Would you prefer a banana or a cherry?</label>
+      <input
+        id="choose"
+        name="phone-number"
+        type="text"
+        required
+        pattern="^\+234-\d{3}-\d{4}-\d{3}$"
+        placeholder="+234-000-0000-000" />
       <button type="submit">Submit</button>
     </form>
   </body>
