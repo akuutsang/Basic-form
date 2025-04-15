@@ -1,11 +1,14 @@
 input:invalid {
   border: 2px dashed red;
 }
+/* because of the keyword required, the user will see dashed red when they try to submit without filing the input field  */
 
 input:valid:required {
   border: 2px solid black;
   background-image: linear-gradient(to right, pink, lightgreen);
 }
+
+/* the color gradient indicates to user the importance of filling the input form */
 
 input:valid {
   border: 2px solid black;
